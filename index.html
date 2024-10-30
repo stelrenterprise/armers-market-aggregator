@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmers Market Aggregator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Farmers Market Aggregator</h1>
+        <nav>
+            <a href="#join">Join</a>
+            <a href="#market">Marketplace</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <h2>Connect Farmers and Buyers</h2>
+            <p>Join our community to buy fresh produce directly from local farmers.</p>
+            <a href="#join" class="cta-button">Get Started</a>
+        </section>
+        
+        <section id="join">
+            <h2>Join Us</h2>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="role">I am a:</label>
+                <select id="role">
+                    <option value="farmer">Farmer</option>
+                    <option value="buyer">Buyer</option>
+                </select>
+                
+                <button type="submit">Join</button>
+            </form>
+            <div id="message"></div>
+        </section>
+        
+        <section id="market">
+            <h2>Marketplace</h2>
+            <div id="products">
+                <p>Available products will be displayed here.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Farmers Market Aggregator. All rights reserved.</p>
+        <div>
+            <a href="#join">Join Us</a> | 
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
